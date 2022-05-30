@@ -1,0 +1,35 @@
+.main__inner {
+    height: 6rem;
+}
+.form {
+    margin-top: 2rem;
+    display: grid;
+    grid:
+        "a a" 40px
+        "b b" 40px
+        / 1fr 1fr;
+    gap: 0.8rem;
+}
+.form__input {
+    padding: 1rem 0;
+    text-indent: 5px;
+    border: solid 1px var(--black-primary);
+    outline: none;
+    border-radius: 4px;
+}
+.form__button {
+    background: linear-gradient(
+        to right,
+        var(--blue-primary),
+        var(--blue-secondary)
+    );
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    color: var(--white-primary);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-size: 1.1em;
+    font-weight: 700;
+    grid-area: b;
+}

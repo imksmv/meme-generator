@@ -1,3 +1,10 @@
+:root {
+    --blue-primary: #3366ff;
+    --blue-secondary: #00ccff;
+    --white-primary: #fff;
+    --black-primary: #212121;
+}
+
 *,
 *::before,
 *::after {
@@ -111,7 +118,7 @@ body {
 }
 
 [class*="__inner"] {
-    max-width: 1600px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 0 15px;
 }
