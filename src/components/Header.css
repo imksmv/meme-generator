@@ -10,7 +10,6 @@
 .nav__inner {
     height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .nav__logo {
@@ -25,8 +24,4 @@
     color: var(--white-primary);
     font-weight: 700;
     font-size: 1.4em;
-}
-.nav__project {
-    font-size: 1.1em;
-    color: var(--white-primary);
 }
